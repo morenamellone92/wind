@@ -1,0 +1,16 @@
+.content{
+    height: 200px;
+    width: 100%;
+}
+
+.img_gallery{
+    text-align: center;
+    width: 29%;
+    margin: 2% 2%;
+}
+
+.img_gallery_category{
+    text-align: center;
+    width: 15%;
+    margin: 2%;
+}

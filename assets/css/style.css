@@ -5,15 +5,23 @@ body{
 
 .content{
     width: 100%;
-    background-color: aqua;
     text-align: center;
+}
+
+h2{
+    font-size: 48px;
+    text-align: center;
+    margin: 2% auto;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 800;
 }
 
 h4{
     height: 10%;
     font-size: 32px;
     font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Space Grotesk';
 }
 
 a{
@@ -55,4 +63,5 @@ a{
     height: 87%;
     object-fit: cover;
 }
+
 

@@ -1,5 +1,5 @@
 h3, p{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: 'Space Grotesk';
 }
 
 h3{
@@ -17,9 +17,9 @@ h3{
     overscroll-behavior-inline: contain;
   }
   
-  .media-scroller--with-groups {
+.media-scroller--with-groups {
     grid-auto-columns: 90%;
-  }
+}
   
   .media-element {
     width: 100%;
