@@ -13,4 +13,6 @@
     text-align: center;
     width: 15%;
     margin: 2%;
+    object-fit: cover;
+    height: 80%;
 }

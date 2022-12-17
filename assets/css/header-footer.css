@@ -10,6 +10,12 @@
     align-items: center;
   }
   
+  .a_logo{
+    margin-top: 1%;
+    margin-left: 1%;
+    height: 100%;
+}
+
   #logo{
     margin-top: 1%;
     margin-left: 1%;
