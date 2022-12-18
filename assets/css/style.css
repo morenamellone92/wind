@@ -1,11 +1,5 @@
 body{
-    width: 100%;
-    margin: 0 auto;
-}
-
-.content{
-    width: 100%;
-    text-align: center;
+    height: auto;
 }
 
 h1{
@@ -40,11 +34,89 @@ h4{
 }
 
 .sub_title{
-    margin-top: 32px;
+    margin-top: 48px;
+    font-style: normal;
+    font-family: 'Space Grotesk';
   }
 
 p{
     font-size: 20px;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+}
+
+.class-up{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/background/IMG-4580.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% auto;
+    display:flex;
+    align-items:center;
+}
+
+.class-up_curt{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/graphic_novel/curt_portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 8% auto;
+    display:flex;
+    align-items:center;
+}
+
+
+.div_h2{
+    width: 30%;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+.div_h3{
+    width: 40%;
+    height: 300px;
+    background-color: #ffffff81;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+
+#i{
+    margin-left: 60%;
+    font-size: 24px;
+    color: #024345;
+}
+
+#class-up-curt{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/graphic_novel/curt_portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% auto;
+    display:flex;
+    align-items:center;
+}
+
+.h2_page{
+    font-size: 100px;
+    text-align: center;
+    margin: 0 auto;   
+}
+
+
+
+.h3_page{
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto; 
+    color: black; 
     font-style: normal;
     font-family: 'Space Grotesk';
 }

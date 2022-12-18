@@ -1,4 +1,5 @@
 .content{
+    margin-top: 32px;
     height: 200px;
     width: 100%;
 }
@@ -15,4 +16,12 @@
     margin: 2%;
     object-fit: cover;
     height: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .img_gallery{
+        text-align: center;
+        width: 42%;
+        margin: 2% 2%;
+    }
 }

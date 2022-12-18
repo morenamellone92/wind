@@ -1,5 +1,4 @@
 
-  
   #navbar{
     margin-top: 0%;
     z-index: 1;
@@ -73,7 +72,12 @@
     width: 40%;
     margin: 0 auto;
   }
+
+  footer{
+    height: 100px;
+  }
   
+
   @media only screen and (max-width: 960px){
   
     html{
@@ -90,14 +94,7 @@
     .sezione{
       display: none;
     }
-  
-    #testo_footer{
-      margin: 0 auto;
-      text-align: center;
-      width: 50%;
-      font-size: 12px;
-    }
-  
+
     header{
       margin: 0%;
       padding: 0%;
@@ -130,11 +127,7 @@
       display: block;
     }
   
-    #footer{
-      background: #EEEEEE;
-      margin-top: 3%;
-      padding: 0px;
-    }
+
   
     #logocompleto{
       padding-top: 5%;
@@ -146,20 +139,10 @@
       text-align: center;
     }
   
-  
-    #testo_footer{
-      margin: 5% auto 5% auto;
-      text-align: center;
-      width: 60%;
-      padding-bottom: 3%;
-    }
+
     }
   
-    #social_footer{
-      width: 16%;
-      margin: 2%;
-    }
-  
+
   .mobile_navbar{
     position: fixed;
     z-index: 0;
@@ -209,12 +192,7 @@
   }
   
   
-  /* footer */
-  #footer{
-    background: #EEEEEE;
-      margin-top: 3%;
-      padding: 0px;
-  }
+
 
 
  #logocompleto{
@@ -226,12 +204,14 @@
       margin: 5% auto;
       text-align: center;
     }
-  
-  
-    #testo_footer{
-      margin: 5% auto 5% auto;
-      text-align: center;
-      width: 60%;
-      padding-bottom: 3%;
+
+
+
+    .div_footer{
+      height: 100px;
+      background-color: #024345;
+      display: flexbox;
     }
+  
+  
   
