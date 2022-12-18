@@ -69,7 +69,7 @@ p{
     background-image: url(../img/background/IMG-4580.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2% auto;
+    margin: 4% auto;
     display:flex;
     align-items:center;
 }
@@ -80,7 +80,7 @@ p{
     background-image: url(../img/graphic_novel/curt_portrait.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 2% auto;
+    margin: 4% auto;
     display:flex;
     align-items:center;
 }
@@ -152,16 +152,11 @@ a{
 
 .section_div{
     width: 48%;
-
     height: 400px;
     margin: 2% 1%;
     float: left;
     text-align: center;
 }
-
-
-
-
 
 .img-section{
     width: 100%;
@@ -212,6 +207,19 @@ a{
         height: auto;
         width: 45%;
         margin: 2%;
+    }
+
+  
+
+    .class-up_curt{
+        width: 100%;
+        height: 740px;
+        background-image: url(../img/icon/curt_500.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 8% auto;
+        display:flex;
+        align-items:center;
     }
 
     .section{
@@ -285,7 +293,7 @@ a{
     }
     
     h3{
-        margin-top: 8%;
+        margin-top: 12%;
         font-size: 24px;
     }
     
@@ -302,13 +310,17 @@ a{
         margin-top: 8%;
     }
 
+    i{
+        font-size: 10px;
+    }
+
     .class-up_curt{
         width: 100%;
         height: 740px;
         background-image: url(../img/icon/curt_500.png);
         background-repeat: no-repeat;
         background-size: cover;
-        margin: 8% auto;
+        margin: 12% auto;
         display:flex;
         align-items:center;
     }

@@ -102,6 +102,8 @@
 .footer{
     display: grid;
     margin-top: 32px;
+    background-color: beige;
+    
   }
 }
 
