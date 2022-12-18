@@ -1,0 +1,28 @@
+.content{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 100%;
+}
+
+.img-gallery{
+    text-align: center;
+    height: 200px;
+    width: 29%;
+    margin: 2%;
+}
+
+.img_gallery_category{
+    text-align: center;
+    width: 15%;
+    margin: 2%;
+    object-fit: cover;
+    height: 80%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .img_gallery{
+        text-align: center;
+        width: 42%;
+        margin: 2% 2%;
+    }
+}

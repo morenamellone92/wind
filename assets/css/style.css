@@ -1,23 +1,133 @@
-body{
-    width: 100%;
-    margin: 0 auto;
+
+
+h1{
+    color: #024345;
+    font-size: 60px;
+    font-family: 'Space Grotesk';
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 5%;
 }
 
-.content{
-    width: 100%;
-    background-color: aqua;
+h2{
+    color: #024345;
+    font-size: 48px;
     text-align: center;
+    margin: 2% auto;
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 800;
+}
+
+h3{
+    text-align: center;
+    margin-top: 24px;
+    color: #024345;
+    font-size: 40px;
 }
 
 h4{
     height: 10%;
     font-size: 32px;
     font-style: normal;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Space Grotesk';
+}
+
+button{
+    color: white;
+    background-color: #024345;
+    padding: 8px;
+    font-size: 24px;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+    border-radius: 8px;
+}
+
+.sub_title{
+    margin-top: 48px;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+  }
+
+p{
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'Space Grotesk';
+}
+
+.img_gallery{
+    text-align: center;
+    height: auto;
+    width: 29%;
+    margin: 2%;
+}
+
+
+.class-up{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/background/IMG-4580.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% auto;
+    display:flex;
+    align-items:center;
+}
+
+.class-up_curt{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/graphic_novel/curt_portrait.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2% auto;
+    display:flex;
+    align-items:center;
+}
+
+
+.div_h2{
+    width: 30%;
+    height: 300px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+.div_h3{
+    width: 40%;
+    height: 300px;
+    background-color: #ffffff81;
+    margin: 0 auto;
+    display:flex;
+    align-items:center;
+}
+
+#i{
+    margin-left: 60%;
+    font-size: 24px;
+    color: #024345;
+}
+
+.h2_page{
+    font-size: 100px;
+    text-align: center;
+    margin: 0 auto;   
+}
+
+.h3_page{
+    font-size: 36px;
+    text-align: center;
+    margin: 0 auto; 
+    color: black; 
+    font-style: normal;
+    font-family: 'Space Grotesk';
 }
 
 a{
     color: black;
+    text-decoration: none;
 }
 
 .feature{
@@ -26,7 +136,6 @@ a{
     margin-bottom: 10vh;
     float: left;
     text-align: center;
-
 }
 
 .img-feature{
@@ -37,17 +146,22 @@ a{
 }
 
 .section{
-    width: 100;
+    width: 100%;
     text-align: center;
 }
-.section-1, .section-2{
+
+.section_div{
     width: 48%;
-    height: 50vh;
-    margin: 0 1%;
+
+    height: 400px;
+    margin: 2% 1%;
     float: left;
     text-align: center;
-   
 }
+
+
+
+
 
 .img-section{
     width: 100%;
@@ -56,3 +170,171 @@ a{
     object-fit: cover;
 }
 
+.img_graphic_novel{
+    object-fit: scale-down;
+}
+
+.other_gallery{
+    background-color: #bcbcbc;
+    width: 100%;
+}
+
+@media only screen and (max-width: 960px) {
+    h1{
+        font-size: 48px;
+        margin-top: 5%;
+    }
+    
+    h2{
+        font-size: 36px;
+    }
+    
+    h3{
+        margin-top: 20px;
+        font-size: 32px;
+    }
+    
+    h4{
+        font-size: 28px;
+        font-style: normal;
+    }
+
+    p{
+        font-size: 18px;
+    }
+
+    a{
+        margin-top: 5%;
+    }
+
+    .img_gallery{
+        text-align: center;
+        height: auto;
+        width: 45%;
+        margin: 2%;
+    }
+
+    .section{
+        width: 100%;
+        text-align: center;
+    }
+
+    .img-section{
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .section_div{
+        width: 96%;
+       text-align: center;
+    }
+
+    .div_h3{
+        width: 70%;
+        height: 300px;
+        background-color: #ffffff81;
+        margin: 0 auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .div_h2{
+        width: 50%;
+        height: 300px;
+        background-color: #ffffff;
+        margin: 0 auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .h3_page{
+        font-size: 24px;
+        text-align: center;
+        margin: 0 auto; 
+        color: black; 
+        font-style: normal;
+        font-family: 'Space Grotesk';
+    }
+
+    #i{
+        margin-left: 60%;
+        font-size: 20px;
+        color: #024345;
+    }
+    
+    .class-up_curt{
+        width: 100%;
+        background-image: url(../img/icon/curt_960.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 2% auto;
+        display:flex;
+        align-items:center;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    h1{
+        font-size: 40px;
+        margin-top: 5%;
+    }
+    
+    h2{
+        font-size: 28px;
+    }
+    
+    h3{
+        margin-top: 8%;
+        font-size: 24px;
+    }
+    
+    h4{
+        font-size: 22px;
+        font-style: normal;
+    }
+    p{
+        font-size: 16px;
+    }
+
+    .section_div{
+        width: 96%;
+        margin-top: 8%;
+    }
+
+    .class-up_curt{
+        width: 100%;
+        height: 740px;
+        background-image: url(../img/icon/curt_500.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 8% auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .div_h3{
+        width: 70%;
+        height: 300px;
+        background-color: #ffffff81;
+        margin: 0 auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .h3_page{
+        font-size: 20px;
+        text-align: center;
+        margin: 0 auto; 
+        color: black; 
+        font-style: normal;
+        font-family: 'Space Grotesk';
+    }
+
+    #i{
+        margin-left: 50%;
+        font-size: 16px;
+        color: #024345;
+    }
+
+}

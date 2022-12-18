@@ -1,0 +1,175 @@
+#h2_graphic_novel{
+    color: rgb(118, 28, 28);
+}
+
+.section_div_graphic_novel_text{ 
+    text-align: left;
+        width: 46%;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin: 16% 8% 8% 4%;
+        float: left;
+        display:flex;
+        align-items:center; 
+}
+
+.section_div_graphic_novel_kurt_cobain{ 
+    width: 30%;
+    height: 500px;
+    background-image: url(../img/icon/something_in_the_way.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 16% 8% 8% 4%;
+    float: left;
+    display:flex;
+    align-items:center;  
+}
+
+.subtitle_graphic_novel{
+    text-align: left;
+}
+
+.content_graphic_novel{
+    padding: 16px;
+    border: 2px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    margin-top: 32px;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 32PX;
+}
+
+.section_div_graphic_novel_sex_pistols{ 
+    width: 30%;
+    height: 500px;
+    background-image: url(../img/icon/sex_pistols.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 16% 8% 8% 4%;
+    float: left;
+    display:flex;
+    align-items:center;  
+}
+
+@media only screen and (max-width: 960px) {
+    .section_div_graphic_novel_text{ 
+        text-align: left;
+            width: 60%;
+            height: 500px;
+            margin: 4% 15%;
+            float: inline-start;
+            text-align: center;
+            display: inline;
+            align-items:center; 
+    }
+    
+    .section_div_graphic_novel_kurt_cobain{ 
+        width: 600px;
+        height: 800px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .section_div_graphic_novel_sex_pistols{ 
+        width: 600px;
+        height: 800px;
+        margin: 0 auto;
+        float: none;
+    }
+
+    .graphic_novel_text p{
+        text-align: center;
+    }
+
+    .graphic_novel_text button{
+            color: white;
+            background-color: #024345;
+            padding: 8px;
+            font-size: 24px;
+            font-style: normal;
+            font-family: 'Space Grotesk';
+            border-radius: 8px;
+            margin: 0% auto;
+            text-align: left;
+    }
+
+.subtitle_graphic_novel{
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    margin-top: 32px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .content_graphic_novel{
+        width: 90%;
+    }
+    .section_div_graphic_novel_text{ 
+        text-align: center;
+        font-size: 16px;
+            width: 80%;
+            height: 500px;
+            margin: 4% 10%;
+            float: inline-start;
+            text-align: center;
+            display: inline;
+            align-items:center; 
+    }
+    
+    .section_div_graphic_novel_kurt_cobain{ 
+        width: 100%;
+        height: 400px;
+        margin: 16px auto;
+        float: none;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .section_div_graphic_novel_sex_pistols{ 
+        width: 100%;
+        height: 400px;
+        margin: 0 auto;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .graphic_novel_text p{
+        text-align: center;
+    }
+
+    .subtitle_graphic_novel{
+        text-align: left;
+        font-size: 12px;
+    }
+
+    .graphic_novel_text p{
+        font-size: 12px;
+    }
+
+    .graphic_novel_text button{
+            color: white;
+            background-color: #024345;
+            padding: 8px;
+            font-size: 24px;
+            font-style: normal;
+            font-family: 'Space Grotesk';
+            border-radius: 8px;
+            margin: 0% auto;
+            text-align: left;
+    }
+
+.subtitle_graphic_novel{
+    text-align: center;
+}
+
+.footer{
+    display: grid;
+    margin-top: 32px;
+  }
+}
