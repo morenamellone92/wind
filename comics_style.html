@@ -17,27 +17,29 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
     <body>
-                <header>
-            <div class="navbar" id="navbar">
-              <a href="index.html" class="a_logo"><img src="./assets/img/icon/logo.jpg" id="logo"></a>
-              <div id="sezioni">
-                <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
-                <a href="arte.html"><div class="sezione"><strong>Arte</strong></div></a>
-                <a href="graphic_novel.html"><div class="sezione"><strong>Graphic Novel</strong></div></a>
-                <!--<a href="blog/"><div class="sezione"><strong>Blog</strong></div></a>-->
-                <img src="assets/img/icon/menu.svg" id="iconmenu" onclick="MenuMobile()">
-        
-              </div>
+      <header>
+        <div class="navbar" id="navbar">
+          <a href="index.html" class="a_logo"><img src="./assets/img/icon/logo.jpg" id="logo"></a>
+          <div id="sezioni">
+            <!-- id="corrente nei div sotto permetterebbe di aver il menu in stato di verso quando si trova in quella pagina -->
+            <a href="arte.html"><div class="sezione"><strong>Arte</strong></div></a>
+            <a href="graphic_novel.html"><div class="sezione"><strong>Graphic Novel</strong></div></a>
+            <!--<a href="blog/"><div class="sezione"><strong>Blog</strong></div></a>-->
+            <img src="assets/img/icon/menu.svg" id="iconmenu" onclick="MenuMobile()">
+    
+          </div>
+        </div>
+    
+        <div class="mobile_navbar" id="mobile_navbar">
+          <div id="sezioni_mobile">
+            <a class="page" href="../"><div class="sezione_mobile">Home</div></a>
+            <a href="./arte.html"><div class="sezione_mobile">Arte</div></a>
+            <a href="./graphic_novel.html"><div class="sezione_mobile">Graphic Novel</div></a>
+
             </div>
-        
-            <div class="mobile_navbar" id="mobile_navbar">
-              <div id="sezioni_mobile">
-                <a class="page" href="../"><div class="sezione_mobile">Home</div></a>
-                <a href="./portfolio"><div class="sezione_mobile">Portfolio</div></a>
-                </div>
-                </div>
-              </div>
-          </header>
+            </div>
+          </div>
+      </header>
             <!-- fine header -->
             <h1 class="sub_title">COLLECTION<br>COMICS STYLE</h1>
             <div class="content">
@@ -79,16 +81,37 @@
 
             <!--centro pagina-->
   
-            <footer>
-                <div class="content" >
-                  <div class="section" >
-                    <div class="section_div" id="section_div_footer">
-                      <p class="p_footer" id="p_footer">© 2023 - Davide Morina <br>
-                        <a href="index.html"> Home </a> <a href="arte.html"> Arte </a><a href="fumetti.html"> Fumetti </a> <a href="contatti.html"> Contatti</a></p>
+            <footer class="footer">
+
+              <div class="content" >
+                
+                <div class="section" >
+                  <div  class="section_div_footer" id="section_div_footer">
+                    <p class="p_footer" id="p_footer">© 2023 - Davide Morina <br>
+                      <a href="index.html"> Home </a> <a href="arte.html"> Arte </a><a href="graphic_novel.html"> Graphic Novel </a></p>
+                      <div class="content" id="footer_social">
+                        <div class="section">
+                            <div class="section_div" id="section_footer">
+                              <a href="mailto:artedave@gmail.com">
+                            <img src="./assets/img/icon/email_icon.svg" class="img-section" id ="icon_footer">
+                          </a>
+                          </div>
+                        <div class="section_div" id="section_footer">
+                          <a href="https://instagram.com/davidemorina">
+                            <img src="./assets/img/icon/instagram_icon.svg" class="img-section" id="icon_footer">
+                          </a>
+                        </div>
+                        <div class="section_div" id="section_footer">
+                          <a href="https://www.facebook.com/davide.morina">
+                          <img src="./assets/img/icon/facebook_icon.svg" class="img-section" id ="icon_footer">
+                          </a>
+                        </div>
                     </div>
-        
-              </div>
-              </div>
-              </footer>
-          </body>
-        </html>
+                    </div>
+                  </div>
+      
+            </div>
+            </div>
+            </footer>
+        </body>
+      </html>

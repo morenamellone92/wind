@@ -152,10 +152,16 @@ a{
 
 .section_div{
     width: 48%;
-    height: 400px;
-    margin: 2% 1%;
+    height: auto;
+    margin: 32% auto;
     float: left;
-    text-align: center;
+}
+
+#section_div_id{
+    width: 48%;
+    height: 400px;
+    margin: 4% auto;
+    float: left;
 }
 
 .img-section{

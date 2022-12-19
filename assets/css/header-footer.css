@@ -78,32 +78,54 @@
 
   #section_div_footer{
     width: 100%;
+    height: 200px;
     text-align: center;
     font-size: 24px;
     font-weight: 600;
-    margin: 64px auto;
+    margin: 16% auto 0 auto;
     border-color: #024345;
     border-width: 4px;
   }
 
+  #footer_social{
+    margin-top: 0 auto;
+  }
+
   .p_footer{
-    text-align: center;  
+    text-align: center; 
+    margin-bottom: 0%;
   }
 
   .section_div_footer{
       width: 100%;
-      margin: 2% 1%;
       float: left;
       text-align: center;
-      border-color: #024345;
-      border-width: 4px;
+      border-top: #024345 2px solid;
 
-      
   }
 
 
+#icon_footer{
+  width: 15%;
+  height: auto;
+  text-align: center;
+}
 
-  @media only screen and (max-width: 960px){
+
+#logo_footer{
+  width: 50%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section_footer{
+  width: 13%;
+  margin: 0 10% 0 10%;
+  text-align: center;
+}
+
+  @media only screen and (max-width: 1030px){
   
     html{
       background-attachment: fixed;
@@ -159,6 +181,18 @@
       justify-content: center;
       width: 50%;
       margin: 5% auto;
+      text-align: center;
+    }
+
+    #icon_footer{
+      width: 25%;
+      height: auto;
+      text-align: center;
+    }
+    
+    #section_footer{
+      width: 25%;
+      margin: 0 4.16% 0 4.16%;
       text-align: center;
     }
     }
